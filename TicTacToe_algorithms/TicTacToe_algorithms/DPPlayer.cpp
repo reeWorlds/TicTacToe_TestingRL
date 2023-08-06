@@ -1,6 +1,6 @@
 #include "DPPlayer.h"
 
-DPPlayer::DPPlayer() : rng(time(NULL))
+DPPlayer::DPPlayer() : rng(chrono::high_resolution_clock::now().time_since_epoch().count())
 {
 	dp = nullptr;
 }

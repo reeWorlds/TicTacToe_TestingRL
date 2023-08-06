@@ -30,6 +30,9 @@
     <ClCompile Include="DPPlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MonteCarloPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
@@ -51,6 +54,9 @@
       <Filter>Header Source Files</Filter>
     </ClInclude>
     <ClInclude Include="DPPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarloPlayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
