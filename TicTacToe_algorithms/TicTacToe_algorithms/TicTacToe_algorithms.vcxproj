@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,11 +130,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsolePlayer.cpp" />
+    <ClCompile Include="DPPlayer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TicTacToeBasics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsolePlayer.h" />
+    <ClInclude Include="DPPlayer.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="TicTacToeBasics.h" />
     <ClInclude Include="includes.h" />

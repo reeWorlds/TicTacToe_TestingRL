@@ -27,6 +27,9 @@
     <ClCompile Include="ConsolePlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DPPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
@@ -46,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="TicTacToeManager.hpp">
       <Filter>Header Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DPPlayer.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

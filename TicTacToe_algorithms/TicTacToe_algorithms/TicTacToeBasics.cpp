@@ -99,8 +99,8 @@ int Matrix::getHash()
 	{
 		for (int j = 2; j >= 0; j--)
 		{
-			hash += a[i][j] + 1;
 			hash *= 3;
+			hash += a[i][j] + 1;
 		}
 	}
 
