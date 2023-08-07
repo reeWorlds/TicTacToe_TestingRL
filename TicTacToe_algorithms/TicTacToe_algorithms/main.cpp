@@ -2,6 +2,7 @@
 #include "DPPlayer.h"
 #include "MonteCarloPlayer.h"
 #include "QLearningPlayer.h"
+#include "TD3Player.h"
 
 #include "TicTacToeManager.h"
 
@@ -13,7 +14,8 @@ int main()
 	//TicTacToeManager<DPPlayer, ConsolePlayer> manager;
 	//TicTacToeManager<DPPlayer, DPPlayer> manager;
 	//TicTacToeManager<MonteCarloPlayer, DPPlayer> manager;
-	TicTacToeManager<QLearningPlayer, DPPlayer> manager;
+	//TicTacToeManager<QLearningPlayer, DPPlayer> manager;
+	TicTacToeManager<TD3Player, DPPlayer> manager;
 
 
 
@@ -22,7 +24,6 @@ int main()
 	manager.startGame();
 
 
-	// kind of TD(2) (add gamma)
 	// DQN
 	// Double Dueling DQN
 	// simple policy learning alg

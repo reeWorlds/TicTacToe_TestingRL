@@ -134,6 +134,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MonteCarloPlayer.cpp" />
     <ClCompile Include="QLearningPlayer.cpp" />
+    <ClCompile Include="TD3Player.cpp" />
     <ClCompile Include="TicTacToeBasics.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +143,7 @@
     <ClInclude Include="MonteCarloPlayer.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="QLearningPlayer.h" />
+    <ClInclude Include="TD3Player.h" />
     <ClInclude Include="TicTacToeBasics.h" />
     <ClInclude Include="includes.h" />
     <ClInclude Include="TicTacToeManager.h" />
