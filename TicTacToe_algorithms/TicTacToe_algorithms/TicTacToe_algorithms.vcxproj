@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="ConsolePlayer.cpp" />
     <ClCompile Include="DPPlayer.cpp" />
+    <ClCompile Include="DQNPlayer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MonteCarloPlayer.cpp" />
     <ClCompile Include="QLearningPlayer.cpp" />
@@ -140,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="ConsolePlayer.h" />
     <ClInclude Include="DPPlayer.h" />
+    <ClInclude Include="DQNPlayer.h" />
     <ClInclude Include="MonteCarloPlayer.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="QLearningPlayer.h" />
