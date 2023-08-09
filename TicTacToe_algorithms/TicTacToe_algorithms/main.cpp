@@ -18,11 +18,23 @@ int main()
 	//TicTacToeManager<QLearningPlayer, DPPlayer> manager;
 	//TicTacToeManager<TD3Player, DPPlayer> manager;
 
-	TicTacToeManager<DQNPlayer, DPPlayer> manager;
 
-	manager.trainPlayers();
+	for (int i = 0; i < 100; i++)
+	{
+		TicTacToeManager<DQNPlayer, DPPlayer> manager;
 
-	manager.startGame();
+		manager.trainPlayers();
+
+		manager.startGame();
+	}
+	for (int i = 0; i < 100; i++)
+	{
+		TicTacToeManager<DPPlayer, DQNPlayer> manager;
+
+		manager.trainPlayers();
+
+		manager.startGame();
+	}
 
 
 	// DQN (the very simplest version)

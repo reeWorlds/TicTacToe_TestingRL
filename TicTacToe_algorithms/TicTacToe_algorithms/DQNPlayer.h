@@ -7,25 +7,25 @@ class DQNPlayer : public Player
 {
 	class NN
 	{
-		float input[18];
-		float l1[16];
-		float l2[8];
+		float input[10];
+		float l1[32];
+		float l2[16];
 		float output[9];
 
-		float l1_w[16][18];
-		float l2_w[8][16];
-		float output_w[9][8];
-		float l1_b[16];
-		float l2_b[8];
+		float l1_w[32][18];
+		float l2_w[16][32];
+		float output_w[9][16];
+		float l1_b[32];
+		float l2_b[16];
 
-		float l1_d[16];
-		float l2_d[8];
-		float output_d;
-		float l1_dw[16][18];
-		float l2_dw[8][16];
-		float output_dw[8];
-		float l1_db[16];
-		float l2_db[8];
+		float l1_d[32];
+		float l2_d[16];
+		float output_d[9];
+		float l1_dw[32][18];
+		float l2_dw[16][32];
+		float output_dw[9][16];
+		float l1_db[32];
+		float l2_db[16];
 
 		void fillZeroForward();
 
